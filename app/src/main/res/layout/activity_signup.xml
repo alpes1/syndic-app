@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/logo_syndicat"/>
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nom et Prenom"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/immeuble"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Numero d'immeuble"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/appart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Numero d'appartement"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/cin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="CIN (optionel)"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/confpassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/logred"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Do you already have an account? Log-in"
+        android:textColor="#0b81db"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/BtnSignup"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Sign-Up"
+        android:backgroundTint="#0b81db"
+        android:layout_margin="32dp"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/logo_syndicat"/>
+
+    <EditText
+        android:id="@+id/txteml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txtpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/supred"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign-up"
+        android:textColor="#0b81db"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Forget password?"
+        android:textColor="#0b81db"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#0b81db"
+        android:layout_margin="32dp"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>
